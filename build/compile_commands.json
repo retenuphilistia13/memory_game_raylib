@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/meomary_card.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/meomary_card.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/meomary_card.cpp"
+},
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/Card.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/Card.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/Card.cpp"
+},
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/CardManager.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/CardManager.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/CardManager.cpp"
+},
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/Timer.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/Timer.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/Timer.cpp"
+}
+]
