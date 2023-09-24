@@ -1,0 +1,3 @@
+/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default/CMakeFiles/example.dir
+/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default/CMakeFiles/edit_cache.dir
+/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default/CMakeFiles/rebuild_cache.dir

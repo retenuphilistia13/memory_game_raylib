@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/meomary_card.dir/meomary_card.cpp.o -o meomary_card  /home/ahmed/eclipse-workspace/Raylib/meomary_card/raylib-4.5.0_linux_i386/lib/libraylib.a 

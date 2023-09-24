@@ -1,4 +1,9 @@
-
+/*
+ * CardManager.h
+ *
+ *  Created on: Sep 24, 2023
+ *      Author: ahmed
+ */
 
 #ifndef CARDMANAGER_H_
 #define CARDMANAGER_H_
@@ -6,12 +11,12 @@
 #include<raylib.h>
 #include<vector>
 #include<iostream>
-
+#include<algorithm>
 #include"Card.h"
 #include"Timer.h"
 using std::vector;
 using std::cout;
-
+using std::endl;
 
 class CardManager {
 public:
@@ -34,6 +39,7 @@ Timer intervalCard;
     // Load a texture
     Texture2D texture ;
 int cardSize=5;
+int winPoint=0;
 
 
     float scale=0.3;

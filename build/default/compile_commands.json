@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/meomary_card.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/meomary_card/meomary_card.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/meomary_card.cpp"
+},
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/Card.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/meomary_card/Card.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/Card.cpp"
+},
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/CardManager.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/meomary_card/CardManager.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/CardManager.cpp"
+},
+{
+  "directory": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/build/default",
+  "command": "/usr/bin/c++   -I/usr/local/include -o CMakeFiles/example.dir/Timer.cpp.o -c /home/ahmed/eclipse-workspace/Raylib/meomary_card/Timer.cpp",
+  "file": "/home/ahmed/eclipse-workspace/Raylib/meomary_card/Timer.cpp"
+}
+]

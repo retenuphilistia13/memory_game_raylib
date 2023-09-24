@@ -27,14 +27,18 @@ Card::Card(Rectangle rec,Texture2D backText,Texture2D frontText) {
 
 void Card::draw(){
 	   // Draw the textured rectangle
+	if(!matched){
 	if(!isClicked)
         DrawTexturePro(backTexture, sourceRect, destRect, Vector2{0, 0}, 0.0f, WHITE);
 	else if(isClicked){
 
 		 DrawTexturePro(frontTexture, sourceRect, destRect, Vector2{0, 0}, 0.0f, WHITE);
 	}
+
+	}
 }
 void Card::update(){
+	if(!matched)
 if(IsMouseButtonPressed(MOUSE_LEFT_BUTTON)){
 Vector2 mousePosition= GetMousePosition();
 
@@ -54,3 +58,4 @@ Card::~Card() {
 
 	  UnloadTexture(backTexture);
 }
+

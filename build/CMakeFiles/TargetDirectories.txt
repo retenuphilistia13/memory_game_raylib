@@ -1,3 +1,0 @@
-/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build/CMakeFiles/example.dir
-/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build/CMakeFiles/edit_cache.dir
-/home/ahmed/eclipse-workspace/Raylib/memory_game_raylib/build/CMakeFiles/rebuild_cache.dir

@@ -5,7 +5,7 @@
 #include<vector>
 #include<string>
 
-// #include "raymath.h"
+#include "raymath.h"
 
 #include"CardManager.h"
 // define a timer
@@ -18,8 +18,8 @@ const int screenWidth = 720;
 const int screenHeight = 1000;
 //std::vector<Card*> cards;
 
-// void draw();
-// void update();
+void draw();
+void update();
 
 
 
@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
 //
 //        float totalWidth=texture.width*cardSize;
 
-	    CardManager cardGame;
+	    CardManager* cardGame=new CardManager();
 
 
 	    SetTargetFPS(60);
@@ -63,13 +63,20 @@ int main(int argc, char **argv) {
 	    while (!WindowShouldClose()) {
 	        // Update
 
-	    	cardGame.update();
+	    	cardGame->update();
 	        // Draw
 	        BeginDrawing();
 
 	        ClearBackground(RAYWHITE);
 
-	        cardGame.draw();
+	        cardGame->draw();
+
+	        	if(cardGame->winPoint==cardGame->cardSize){
+	        		delete cardGame;
+	        		cardGame=new CardManager();
+	        		std::cout<<"you win";
+
+	        	}
 
 	        DrawText("Move card with mouse", 10, 10, 20, DARKGRAY);
 

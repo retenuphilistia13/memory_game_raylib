@@ -10,6 +10,11 @@
 #include<raylib.h>
 
 class Card {
+
+	private:
+
+	int ID;
+	bool matched=false;
 public:
 
 
@@ -18,6 +23,7 @@ Rectangle sourceRect ;
 Vector2 position;
 
 bool isClicked;
+
 static bool isAbleToFlip;
 
 Texture2D backTexture;
@@ -47,6 +53,22 @@ Texture2D frontTexture;
 
 	void setIsClicked(bool isClicked) {
 		this->isClicked = isClicked;
+	}
+
+	int getId() const {
+		return ID;
+	}
+
+	void setId(int id) {
+		ID = id;
+	}
+
+	bool isMatched() const {
+		return matched;
+	}
+
+	void setMatched(bool matched = false) {
+		this->matched = matched;
 	}
 };
 
