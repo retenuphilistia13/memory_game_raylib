@@ -49,7 +49,7 @@ CardManager::CardManager() {
 
 	        }
 
-
+	        shuffleVector(cards);
 
 
 }
