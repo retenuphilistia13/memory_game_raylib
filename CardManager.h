@@ -45,7 +45,7 @@ Timer intervalCard;
 
     // Load a texture
     Texture2D texture ;
-int cardSize=5;
+int cardSize=4;
 int winPoint=0;
 
 
@@ -87,7 +87,7 @@ Vector2 backSize;
 //load front texture
 
 vector<Texture2D>frontText;
-const char* path[5]={"assets/gumball.png","assets/darwin.png","assets/ritchard.png","assets/sara.png","assets/banana_joe.png"};
+const char* path[4]={"assets/gumball.png","assets/darwin.png","assets/ritchard.png","assets/banana_joe.png"};
 
 
 	void update();
